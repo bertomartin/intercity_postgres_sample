@@ -13,7 +13,6 @@ set :deploy_to, '/u/apps/dread_production'
 # Use agent forwarding for SSH so you can deploy with the SSH key on your workstation.
 set :ssh_options, {
   forward_agent: true,
-  port: 2222
 }
 
 # Default value for :pty is false
