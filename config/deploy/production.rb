@@ -1,1 +1,1 @@
-server 'localhost', user: 'deploy', roles: %w{web app db}
+server 'tigersethex.com', user: 'deploy', roles: %w{web app db}

@@ -1,14 +1,14 @@
 # config valid only for Capistrano 3.1
 lock '3.1.0'
 
-set :application, 'intercity_sample_application'
-set :repo_url, 'git@github.com:intercity/intercity_postgres_sample.git'
+set :application, 'dread_production'
+set :repo_url, 'git@github.com:bertomartin/intercity_postgres_sample.git'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/u/apps/intercity_sample_app'
+set :deploy_to, '/u/apps/dread_production'
 
 # Use agent forwarding for SSH so you can deploy with the SSH key on your workstation.
 set :ssh_options, {
